@@ -1,0 +1,103 @@
+*{
+    overflow-x: clip;
+}
+
+.wrapper{
+    background-image: url('/abstract-dotted-world-map-vector-illustration-dark-blue-world-map_592024-33.avif');
+    background-size:cover;
+    background-repeat:no-repeat;
+    min-height: 60vh;
+    height: 700px;
+}
+.os-p{
+    z-index: 2; top: 90%;
+}
+.os-p1{
+    opacity: 0.1; letter-spacing: 10px;
+}
+.call-to-action {
+    padding: 80px 0;
+    position: relative;
+    clip-path: inset(0);
+}
+section, .section {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    padding: 60px 0;
+    scroll-margin-top: 100px;
+    overflow: c1500
+}
+.dark-background {
+    --background-color: #0a1629;
+    --default-color: #ffffff;
+    --heading-color: #ffffff;
+    --surface-color: #19335c;
+    --contrast-color: #ffffff;
+}
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+.call-to-action img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+    
+
+    .call-to-action .container {
+        position: relative;
+        z-index: 3;
+        
+    }
+
+.cta-1{
+    border-color: white;
+}
+.fea-1{
+    opacity: 0.1; 
+    letter-spacing: 10px;
+}
+.fea-2{
+    z-index: 2;
+    top: 90%;
+}
+.lsb1{
+    opacity: 0.1; letter-spacing: 10px;
+}
+.lsb2{
+    z-index: 2; top: 90%;
+}
+.pricing-card-width{
+    width: 25rem;
+}
+.slider-bg{
+    background-image: url('/public/team/testimonials-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+  width: 100%;
+  margin-top: 30px;
+}
+.faq-1{
+    opacity: 0.1; letter-spacing: 5px;
+}
+.faq-2{
+    z-index: 2; top: 90%;
+}
+.ti1{
+    color: transparent;
+}
+.ti2{
+    color: transparent;
+}
+.ti3{
+    color: transparent;
+}
+.ti4{
+    color: transparent;
+}
